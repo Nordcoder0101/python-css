@@ -1,0 +1,289 @@
+*{
+  /* outline: dashed 1px red */
+}
+body{
+  width: 1399px;
+  height: 1205px;
+}
+header{
+  height: 720px;
+  background-color: rgb(20, 70, 110);
+  display: inline-block;
+}
+
+main{ 
+  height: 332px;
+}
+
+footer{
+  height: 153px;
+}
+
+.text-sizer{
+  height: 27px;
+  display: inline-block;
+  width: 729px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  padding: 1px 60px 0px 0px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.text-size{
+  color: white;
+  font-size: 22px;
+  padding: 1px 0px 0px 0px;
+  
+}
+
+.image-box{
+  display: inline-block
+}
+.python-logo{
+  padding: 15px 0px 5px 30px;
+  display: inline-block;
+}
+
+.size{
+  color: rgb(196, 196, 48);
+  text-decoration: underline;
+  padding-left: 3px
+}
+
+.pipe{
+  padding: 0px 2px 0px 2px;
+  color :black;
+  font-size: 26px;
+  vertical-align: top
+}
+
+.search{
+  height: 40px;
+  width: 230px;
+  margin: 15px 0px 0px 40px;
+  font-size: 18px;
+  color: rgb(235, 225, 225);
+  float: left;
+}
+
+input::placeholder{
+  color: rgb(201, 192, 192);
+  text-align: center;
+}
+
+.search-form{
+  width: 410px;
+  height: 80px;
+  float: right;
+  background-color: rgb(58, 55, 55);
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px black;
+  margin-right: -40px
+}
+
+.button{
+  height: 40px;
+  width: 60px;
+  border: 1px;
+  background-color: rgb(21, 73, 133);
+  border-radius: 10px;
+  color: white;
+  margin: 18px 60px 0px 0px;
+  font-size: 18px
+}
+
+nav {
+  height: 80px;
+  width: 1220px;
+  display: inline-block;
+  margin: 0px 0px 15px 155px;
+  background-color: rgb(60, 118, 167)
+}
+ li{
+  display: inline-block;
+  margin: 5px 20px 20px 30px;
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.downloads{
+  margin: 0px 20px 0px 30px
+}
+
+.documentation{
+  margin: 0px 20px 0px 30px;
+}
+
+.community{
+  margin: 0px 20px 0px 35px
+}
+
+.news{
+  margin: 0px 20px 0px 35px
+}
+
+.events{
+  margin: 0px 20px 1px 35px
+}
+
+.below-nav{
+  height: 435px;
+  width: 1400px;
+  display: inline;
+}
+
+.python-intro{
+  display: inline-block;
+  height: 400px;
+  width: 1000px;
+  vertical-align: top;
+  margin: 15px 0px 0px 25px;
+}
+
+.guides {
+  height: 420px;
+  width: 300px;
+  display: inline-block;
+}
+
+.guides li{
+  margin: 18px 0px 0px 0px;
+  text-align: center;
+  display: block;
+  display: list-item;
+  list-style: inside;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.intro-text{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.python-features li{
+  display: block;
+  margin:  20px;
+  text-align: center;
+  color: rgb(196, 196, 48);
+  font-style: italic;
+}
+#zen{
+  color: white;
+  padding: 10px;
+  font-size: 21px
+}
+
+.getting-started-application{
+  height: 330px;
+  width: 596px;
+  margin: 0px 0px 0px 100px;
+  display: inline-block;
+}
+
+.gsa-left{
+  vertical-align: top;
+  
+}
+
+.bars{
+  display: inline-block;
+  height: 12px;
+  width: 100%;
+}
+
+.left-hr{
+  vertical-align: top;
+  margin: 10px 0 0 80px
+}
+
+hr {
+  border: 10px;
+  height: 6px;
+  width: 600px;
+  color: rgb(55, 55, 104);
+  background-color: rgb(67, 148, 196);
+  margin:  0px 0px 0px 10px;
+  display: inline-block;
+}
+
+.gsa-subheader{
+  text-align: center;
+  display: block;
+  width: 60%;
+  margin: 10px 0 0 45px;
+  font-size: 25px;
+}
+
+.gsa-content{
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 10px 0 0 0px;
+
+}
+
+.gsa-list {
+  margin: 0 0 0 15px
+}
+
+.gsa-list li{
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  color: rgb(84, 175, 228);
+  font-size: 18px;
+  display: list-item;
+  margin: 0 0 10px 20px
+}
+
+main{
+  display: inline-block;
+}
+
+.right-hr{
+  border: 10px;
+  height: 6px;
+  width: 600px;
+  color: rgb(55, 55, 104);
+  background-color: rgb(67, 148, 196);
+  margin: 10px 0px 0px 30px;
+  vertical-align: top;
+}
+.gsa-right{
+  margin: 0 0 0 30px;
+}
+
+footer{
+  background-color: rgb(20, 70, 110)
+}
+
+.empty-div{
+  height: 70px;
+}
+
+.footer-links{
+  display: inline-block;
+  width: 100%;
+  color: rgb(172, 211, 216);
+}
+
+.footer-links h2{
+  display: inline-block;
+  margin: 0 65px 0 15px
+}
+
+.help{
+  padding: 0 0 0 190px;
+}
+
+.copyright{
+  text-align: center;
+  display: block;
+  margin: 20px;
+  color: rgb(172, 211, 216);
+}
